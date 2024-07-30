@@ -1,0 +1,34 @@
+TO CREATE USERS IN ORACLE(SQL PLUS):-
+====================================
+
+SQL> CREATE USER dinesh IDENTIFIED BY dinesh9999
+  2  DEFAULT TABLESPACE USERS
+  3  QUOTA UNLIMITED ON USERS;
+
+
+GRANT PERMISSIONS:
+=====================
+SQL> GRANT CONNECT,RESOURCE to dinesh;
+
+DROP USER:-
+=========
+DROP USER NANI;
+
+USER PASSWORD CHANGE:-
+====================
+BY DBA-
+-------
+SQL> ALTER USER dinesh IDENTIFIED BY TIGER;
+BY USER-
+-------
+SQL> password
+Changing password for DINESH
+Old password:
+New password:
+Retype new password:
+Password changed
+
+BASIC COMMANDS:-
+================
+CL SCR =CLEAR THE SCREEN
+EXIT = TO EXIT THE WINDOW
